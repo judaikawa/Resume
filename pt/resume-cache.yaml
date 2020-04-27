@@ -1,0 +1,3957 @@
+version: 0.10.0
+filePath: resume.tex
+options:
+  $BIBINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  $TEXINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  bibtexEngine: bibtex
+  cleanPatterns: &ref_0
+    - '**/*.aux'
+    - '**/*.aux.bak'
+    - '**/*.bbl'
+    - '**/*.bcf'
+    - '**/*.blg'
+    - '**/*.dvi'
+    - '**/*.fdb_latexmk'
+    - '**/*.fls'
+    - '**/*.idx'
+    - '**/*.idx.bak'
+    - '**/*.ilg'
+    - '**/*.ind'
+    - '**/*.lof'
+    - '**/*.log'
+    - '**/*.lol'
+    - '**/*.lot'
+    - '**/*.nav'
+    - '**/*.out'
+    - '**/*.pdf'
+    - '**/*.ps'
+    - '**/*.snm'
+    - '**/*.synctex.gz'
+    - '**/*.toc'
+    - '/**/_minted-${JOB}'
+    - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+    - /missfont.log
+    - /texput.log
+    - /texput.aux
+    - '**/*.yaml'
+  dviToPdfEngine: xdvipdfmx
+  engine: xelatex
+  epstopdfBoundingBox: default
+  epstopdfOutputPath: $DIR_0/$NAME_0.pdf
+  indexAutomaticRanges: true
+  indexEngine: makeindex
+  indexOrdering: word
+  indexSorting: default
+  knitrConcordance: true
+  knitrOutputPath: $JOB.tex
+  lhs2texStyle: poly
+  literateAgdaEngine: agda
+  literateHaskellEngine: lhs2TeX
+  loadCache: true
+  loadUserOptions: true
+  outputFormat: pdf
+  phaseCycles: 20
+  pweaveCacheDirectory: pweave-cache-for-$JOB
+  pweaveFigureDirectory: pweave-figures-for-$JOB
+  pweaveKernel: python3
+  pweaveOutputFormat: tex
+  pweaveOutputPath: $JOB.tex
+  saveCache: true
+  severity: info
+  validateCache: true
+  synctex: true
+  copyTargetsToRoot: true
+  outputDirectory: ''
+  shellEscape: enabled
+  intermediatePostScript: false
+  $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+files:
+  dicy-instance.yaml-ParsedYAML:
+    timeStamp: 2018-03-24T12:17:50.199Z
+    jobNames: []
+    value:
+      severity: info
+    type: ParsedYAML
+  dicy.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  resume.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  resume.tex-ParsedLaTeXMagic:
+    timeStamp: 2018-03-24T12:17:50.287Z
+    jobNames: []
+    value:
+      encoding: UTF-8 Unicode
+    type: ParsedLaTeXMagic
+  /Users/arthur/.dicy.yaml-ParsedYAML:
+    timeStamp: 2018-03-24T12:18:25.992Z
+    jobNames: []
+    value:
+      engine: xelatex
+      synctex: true
+      severity: warning
+      copyTargetsToRoot: true
+      outputDirectory: ''
+      outputFormat: pdf
+      cleanPatterns:
+        - '**/*.aux'
+        - '**/*.aux.bak'
+        - '**/*.bbl'
+        - '**/*.bcf'
+        - '**/*.blg'
+        - '**/*.dvi'
+        - '**/*.fdb_latexmk'
+        - '**/*.fls'
+        - '**/*.idx'
+        - '**/*.idx.bak'
+        - '**/*.ilg'
+        - '**/*.ind'
+        - '**/*.lof'
+        - '**/*.log'
+        - '**/*.lol'
+        - '**/*.lot'
+        - '**/*.nav'
+        - '**/*.out'
+        - '**/*.pdf'
+        - '**/*.ps'
+        - '**/*.snm'
+        - '**/*.synctex.gz'
+        - '**/*.toc'
+        - '/**/_minted-${JOB}'
+        - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+        - /missfont.log
+        - /texput.log
+        - /texput.aux
+        - '**/*.yaml'
+      shellEscape: enabled
+      intermediatePostScript: false
+      $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+    type: ParsedYAML
+  resume.tex:
+    timeStamp: 2018-05-13T14:31:31.000Z
+    jobNames: []
+    hash: TOkin3MkQPq1YgGlyszWIktEWHXKLjvsz3VALvevfOs=
+    type: LaTeX
+    subType: awesome-cv
+  x.y-Nil:
+    jobNames: []
+    type: Nil
+  resume.fls-ParsedFileListing:
+    timeStamp: 2018-08-06T19:31:33.236Z
+    jobNames: []
+    value:
+      messages: []
+      inputs:
+        - /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/genmisc/nth.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/filehook/filehook.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/import/import.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/xifthen/xifthen.sty
+        - /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+        - /usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
+        - /usr/local/texlive/2018/texmf.cnf
+        - awesome-cv.cls
+        - fontawesome.sty
+        - resume.aux
+        - resume.out
+        - resume.tex
+        - resume/education.tex
+        - resume/experience.tex
+        - resume/honors.tex
+        - resume/interests.tex
+        - resume/skills.tex
+        - resume/writing.tex
+      outputs:
+        - resume.aux
+        - resume.log
+        - resume.out
+      calls: []
+    type: ParsedFileListing
+  resume.log-ParsedLaTeXLog:
+    timeStamp: 2018-08-06T19:31:33.186Z
+    jobNames: []
+    value:
+      messages:
+        - name: XeTeX
+          severity: info
+          text: array 2018/04/07 v2.4g Tabular extension package (FMi)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+          log:
+            file: resume.log
+            range:
+              start: 33
+              end: 33
+        - name: XeTeX
+          severity: info
+          text: enumitem 2011/09/28 v3.5.2 Customized lists
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+          log:
+            file: resume.log
+            range:
+              start: 42
+              end: 42
+        - name: XeTeX
+          severity: info
+          text: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
+          log:
+            file: resume.log
+            range:
+              start: 50
+              end: 50
+        - name: XeTeX
+          severity: info
+          text: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+          log:
+            file: resume.log
+            range:
+              start: 52
+              end: 52
+        - name: XeTeX
+          severity: info
+          text: geometry 2018/03/24 v5.7 Page Geometry
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+          log:
+            file: resume.log
+            range:
+              start: 69
+              end: 69
+        - name: XeTeX
+          severity: info
+          text: keyval 2014/10/28 v1.15 key=value parser (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+          log:
+            file: resume.log
+            range:
+              start: 71
+              end: 71
+        - name: XeTeX
+          severity: info
+          text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+          log:
+            file: resume.log
+            range:
+              start: 74
+              end: 74
+        - name: XeTeX
+          severity: info
+          text: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+          log:
+            file: resume.log
+            range:
+              start: 76
+              end: 76
+        - severity: info
+          name: XeTeX
+          category: Package ifvtex
+          text: VTeX not detected.
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+          log:
+            file: resume.log
+            range:
+              start: 77
+              end: 77
+        - name: XeTeX
+          severity: info
+          text: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+          log:
+            file: resume.log
+            range:
+              start: 79
+              end: 79
+        - name: XeTeX
+          severity: info
+          text: >-
+            fancyhdr 2017/06/30 v3.9a Extensive control of page headers and
+            footers
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+          log:
+            file: resume.log
+            range:
+              start: 94
+              end: 95
+        - name: XeTeX
+          severity: info
+          text: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+          log:
+            file: resume.log
+            range:
+              start: 106
+              end: 106
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: 'Driver file: xetex.def'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 225
+              end: 225
+          log:
+            file: resume.log
+            range:
+              start: 110
+              end: 110
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: Model `cmy' substituted by `cmy0'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 1348
+              end: 1348
+          log:
+            file: resume.log
+            range:
+              start: 114
+              end: 114
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: Model `RGB' extended
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 1364
+              end: 1364
+          log:
+            file: resume.log
+            range:
+              start: 115
+              end: 115
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: Model `HTML' substituted by `rgb'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 1366
+              end: 1366
+          log:
+            file: resume.log
+            range:
+              start: 116
+              end: 116
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: Model `Hsb' substituted by `hsb'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 1367
+              end: 1367
+          log:
+            file: resume.log
+            range:
+              start: 117
+              end: 117
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: Model `tHsb' substituted by `hsb'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 1368
+              end: 1368
+          log:
+            file: resume.log
+            range:
+              start: 118
+              end: 118
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: Model `HSB' substituted by `hsb'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 1369
+              end: 1369
+          log:
+            file: resume.log
+            range:
+              start: 119
+              end: 119
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: Model `Gray' substituted by `gray'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 1370
+              end: 1370
+          log:
+            file: resume.log
+            range:
+              start: 120
+              end: 120
+        - severity: info
+          name: XeTeX
+          category: Package xcolor
+          text: Model `wave' substituted by `hsb'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+            range:
+              start: 1371
+              end: 1371
+          log:
+            file: resume.log
+            range:
+              start: 121
+              end: 121
+        - name: XeTeX
+          severity: info
+          text: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xifthen/xifthen.sty
+          log:
+            file: resume.log
+            range:
+              start: 123
+              end: 123
+        - name: XeTeX
+          severity: info
+          text: 'calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+          log:
+            file: resume.log
+            range:
+              start: 125
+              end: 125
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \setlength
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+            range:
+              start: 80
+              end: 80
+          log:
+            file: resume.log
+            range:
+              start: 132
+              end: 132
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \addtolength
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+            range:
+              start: 81
+              end: 81
+          log:
+            file: resume.log
+            range:
+              start: 133
+              end: 133
+        - name: XeTeX
+          severity: info
+          text: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+          log:
+            file: resume.log
+            range:
+              start: 137
+              end: 137
+        - name: XeTeX
+          severity: info
+          text: ifmtarg 2009/09/02 v1.2a check for an empty argument
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+          log:
+            file: resume.log
+            range:
+              start: 139
+              end: 139
+        - name: XeTeX
+          severity: info
+          text: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+          log:
+            file: resume.log
+            range:
+              start: 141
+              end: 141
+        - name: XeTeX
+          severity: info
+          text: setspace 2011/12/19 v6.7a set line spacing
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+          log:
+            file: resume.log
+            range:
+              start: 144
+              end: 144
+        - name: XeTeX
+          severity: info
+          text: expl3 2018/03/05 L3 programming layer (loader)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+          log:
+            file: resume.log
+            range:
+              start: 148
+              end: 148
+        - name: XeTeX
+          severity: info
+          text: expl3 2018/03/05 L3 programming layer (code)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+          log:
+            file: resume.log
+            range:
+              start: 150
+              end: 150
+        - name: XeTeX
+          severity: info
+          text: xparse 2018/02/21 L3 Experimental document command parser
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+          log:
+            file: resume.log
+            range:
+              start: 291
+              end: 291
+        - name: XeTeX
+          severity: info
+          text: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+          log:
+            file: resume.log
+            range:
+              start: 298
+              end: 298
+        - name: XeTeX
+          severity: info
+          text: >-
+            fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and
+            LuaLaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+          log:
+            file: resume.log
+            range:
+              start: 300
+              end: 301
+        - name: XeTeX
+          severity: info
+          text: fontenc 2017/04/05 v2.0i Standard LaTeX package
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+          log:
+            file: resume.log
+            range:
+              start: 315
+              end: 315
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding TU
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+            range:
+              start: 82
+              end: 82
+          log:
+            file: resume.log
+            range:
+              start: 318
+              end: 318
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 542
+              end: 542
+          text: |-
+            "xparse/define-command"
+            Defining command \fontspec with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 320
+              end: 324
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 546
+              end: 546
+          text: |-
+            "xparse/define-command"
+            Defining command \setmainfont with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 325
+              end: 329
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 550
+              end: 550
+          text: |-
+            "xparse/define-command"
+            Defining command \setsansfont with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 330
+              end: 334
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 554
+              end: 554
+          text: |-
+            "xparse/define-command"
+            Defining command \setmonofont with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 335
+              end: 339
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 558
+              end: 558
+          text: |-
+            "xparse/define-command"
+            Defining command \setmathrm with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 340
+              end: 344
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 562
+              end: 562
+          text: |-
+            "xparse/define-command"
+            Defining command \setboldmathrm with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 345
+              end: 349
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 566
+              end: 566
+          text: |-
+            "xparse/define-command"
+            Defining command \setmathsf with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 350
+              end: 354
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 570
+              end: 570
+          text: |-
+            "xparse/define-command"
+            Defining command \setmathtt with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 355
+              end: 359
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 574
+              end: 574
+          text: |-
+            "xparse/define-command"
+            Defining command \setromanfont with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 360
+              end: 364
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 578
+              end: 578
+          text: |-
+            "xparse/define-command"
+            Defining command \newfontfamily with sig. 'mO{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 365
+              end: 369
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 582
+              end: 582
+          text: |-
+            "xparse/define-command"
+            Defining command \newfontface with sig. 'mO{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 370
+              end: 374
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 586
+              end: 586
+          text: |-
+            "xparse/define-command"
+            Defining command \defaultfontfeatures with sig. 't+om'.
+          log:
+            file: resume.log
+            range:
+              start: 375
+              end: 379
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 590
+              end: 590
+          text: |-
+            "xparse/define-command"
+            Defining command \addfontfeatures with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 380
+              end: 384
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 594
+              end: 594
+          text: |-
+            "xparse/define-command"
+            Defining command \addfontfeature with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 385
+              end: 389
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 598
+              end: 598
+          text: |-
+            "xparse/define-command"
+            Defining command \newfontfeature with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 390
+              end: 394
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 602
+              end: 602
+          text: |-
+            "xparse/define-command"
+            Defining command \newAATfeature with sig. 'mmmm'.
+          log:
+            file: resume.log
+            range:
+              start: 395
+              end: 399
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 606
+              end: 606
+          text: |-
+            "xparse/define-command"
+            Defining command \newopentypefeature with sig. 'mmm'.
+          log:
+            file: resume.log
+            range:
+              start: 400
+              end: 404
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 610
+              end: 610
+          text: |-
+            "xparse/define-command"
+            Defining command \newICUfeature with sig. 'mmm'.
+          log:
+            file: resume.log
+            range:
+              start: 405
+              end: 409
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 614
+              end: 614
+          text: |-
+            "xparse/define-command"
+            Defining command \aliasfontfeature with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 410
+              end: 414
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 618
+              end: 618
+          text: |-
+            "xparse/define-command"
+            Defining command \aliasfontfeatureoption with sig. 'mmm'.
+          log:
+            file: resume.log
+            range:
+              start: 415
+              end: 419
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 622
+              end: 622
+          text: |-
+            "xparse/define-command"
+            Defining command \newfontscript with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 420
+              end: 424
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 626
+              end: 626
+          text: |-
+            "xparse/define-command"
+            Defining command \newfontlanguage with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 425
+              end: 429
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 630
+              end: 630
+          text: |-
+            "xparse/define-command"
+            Defining command \DeclareFontsExtensions with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 430
+              end: 434
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 634
+              end: 634
+          text: |-
+            "xparse/define-command"
+            Defining command \IfFontFeatureActiveTF with sig. 'mmm'.
+          log:
+            file: resume.log
+            range:
+              start: 435
+              end: 439
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3632
+              end: 3632
+          text: |-
+            "xparse/define-command"
+            Defining command \EncodingCommand with sig. 'mO{}m'.
+          log:
+            file: resume.log
+            range:
+              start: 440
+              end: 444
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3638
+              end: 3638
+          text: |-
+            "xparse/define-command"
+            Defining command \EncodingAccent with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 445
+              end: 449
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3644
+              end: 3644
+          text: |-
+            "xparse/define-command"
+            Defining command \EncodingSymbol with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 450
+              end: 454
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3650
+              end: 3650
+          text: |-
+            "xparse/define-command"
+            Defining command \EncodingComposite with sig. 'mmm'.
+          log:
+            file: resume.log
+            range:
+              start: 455
+              end: 459
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3656
+              end: 3656
+          text: |-
+            "xparse/define-command"
+            Defining command \EncodingCompositeCommand with sig. 'mmm'.
+          log:
+            file: resume.log
+            range:
+              start: 460
+              end: 464
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3681
+              end: 3681
+          text: |-
+            "xparse/define-command"
+            Defining command \DeclareUnicodeEncoding with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 465
+              end: 469
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3687
+              end: 3687
+          text: |-
+            "xparse/define-command"
+            Defining command \UndeclareSymbol with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 470
+              end: 474
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3693
+              end: 3693
+          text: |-
+            "xparse/define-command"
+            Defining command \UndeclareAccent with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 475
+              end: 479
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3699
+              end: 3699
+          text: |-
+            "xparse/define-command"
+            Defining command \UndeclareCommand with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 480
+              end: 484
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3706
+              end: 3706
+          text: |-
+            "xparse/define-command"
+            Defining command \UndeclareComposite with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 485
+              end: 489
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \itshape
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3891
+              end: 3891
+          log:
+            file: resume.log
+            range:
+              start: 491
+              end: 491
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \slshape
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3896
+              end: 3896
+          log:
+            file: resume.log
+            range:
+              start: 492
+              end: 492
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \scshape
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3901
+              end: 3901
+          log:
+            file: resume.log
+            range:
+              start: 493
+              end: 493
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \upshape
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3906
+              end: 3906
+          log:
+            file: resume.log
+            range:
+              start: 494
+              end: 494
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \em
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3936
+              end: 3936
+          log:
+            file: resume.log
+            range:
+              start: 495
+              end: 495
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \emph
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 3961
+              end: 3961
+          log:
+            file: resume.log
+            range:
+              start: 496
+              end: 496
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \-
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4015
+              end: 4015
+          log:
+            file: resume.log
+            range:
+              start: 497
+              end: 497
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4110
+              end: 4110
+          text: |-
+            "xparse/redefine-command"
+            Redefining command \oldstylenums with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 498
+              end: 502
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+            range:
+              start: 4114
+              end: 4114
+          text: |-
+            "xparse/define-command"
+            Defining command \liningnums with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 503
+              end: 507
+        - name: XeTeX
+          severity: info
+          text: unicode-math 2018/02/02 vv0.8l Unicode maths in XeLaTeX and LuaLaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+          log:
+            file: resume.log
+            range:
+              start: 509
+              end: 509
+        - name: XeTeX
+          severity: info
+          text: >-
+            unicode-math-xetex 2018/02/02 vv0.8l Unicode maths in XeLaTeX and
+            LuaLaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+          log:
+            file: resume.log
+            range:
+              start: 513
+              end: 514
+        - name: XeTeX
+          severity: info
+          text: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+          log:
+            file: resume.log
+            range:
+              start: 516
+              end: 516
+        - name: XeTeX
+          severity: info
+          text: filehook 2011/10/12 v0.5d Hooks for input files
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/filehook/filehook.sty
+          log:
+            file: resume.log
+            range:
+              start: 518
+              end: 518
+        - name: XeTeX
+          severity: info
+          text: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
+          log:
+            file: resume.log
+            range:
+              start: 520
+              end: 520
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 269
+              end: 269
+          text: |-
+            "xparse/define-command"
+            Defining command \unimathsetup with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 528
+              end: 532
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 273
+              end: 273
+          text: |-
+            "xparse/define-command"
+            Defining command \setmathfont with sig. 'O{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 533
+              end: 537
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 277
+              end: 277
+          text: |-
+            "xparse/define-command"
+            Defining command \setmathfontface with sig. 'mO{}mO{}'.
+          log:
+            file: resume.log
+            range:
+              start: 538
+              end: 542
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 282
+              end: 282
+          text: |-
+            "xparse/define-command"
+            Defining command \setoperatorfont with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 543
+              end: 547
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 287
+              end: 287
+          text: |-
+            "xparse/define-command"
+            Defining command \addnolimits with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 548
+              end: 552
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 291
+              end: 291
+          text: |-
+            "xparse/define-command"
+            Defining command \removenolimits with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 553
+              end: 557
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 3835
+              end: 3835
+          text: |-
+            "xparse/redefine-command"
+            Redefining command \not with sig. 'm'.
+          log:
+            file: resume.log
+            range:
+              start: 561
+              end: 565
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 3839
+              end: 3839
+          text: |-
+            "xparse/define-command"
+            Defining command \NewNegationCommand with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 566
+              end: 570
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+            range:
+              start: 3843
+              end: 3843
+          text: |-
+            "xparse/define-command"
+            Defining command \RenewNegationCommand with sig. 'mm'.
+          log:
+            file: resume.log
+            range:
+              start: 571
+              end: 575
+        - name: XeTeX
+          severity: info
+          text: fontawesome 2015/11/04 v4.4.0 font awesome icons
+          source:
+            file: /Users/arthurvedana/Dropbox
+          log:
+            file: resume.log
+            range:
+              start: 579
+              end: 579
+        - name: XeTeX
+          severity: info
+          text: parskip 2001/04/09 non-zero parskip adjustments
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
+          log:
+            file: resume.log
+            range:
+              start: 582
+              end: 582
+        - name: XeTeX
+          severity: info
+          text: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 584
+              end: 584
+        - name: XeTeX
+          severity: info
+          text: >-
+            hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 586
+              end: 587
+        - name: XeTeX
+          severity: info
+          text: 'hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)'
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 589
+              end: 589
+        - name: XeTeX
+          severity: info
+          text: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 590
+              end: 590
+        - name: XeTeX
+          severity: info
+          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 591
+              end: 591
+        - name: XeTeX
+          severity: info
+          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 592
+              end: 592
+        - name: XeTeX
+          severity: info
+          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 593
+              end: 593
+        - severity: info
+          name: XeTeX
+          category: Package ifluatex
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 594
+              end: 594
+        - severity: info
+          name: XeTeX
+          category: Package hobsub
+          text: Skipping package `ifvtex' (already loaded).
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 595
+              end: 595
+        - name: XeTeX
+          severity: info
+          text: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 596
+              end: 596
+        - severity: info
+          name: XeTeX
+          category: Package hobsub
+          text: Skipping package `ifpdf' (already loaded).
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 597
+              end: 597
+        - name: XeTeX
+          severity: info
+          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 598
+              end: 598
+        - severity: info
+          name: XeTeX
+          category: Package etexcmds
+          text: >-
+            Could not find \expanded. That can mean that you are not using
+            pdfTeX 1.50 or that some package has redefined \expanded. In the
+            latter case, load this package earlier.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 599
+              end: 602
+        - name: XeTeX
+          severity: info
+          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 603
+              end: 603
+        - name: XeTeX
+          severity: info
+          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 604
+              end: 604
+        - name: XeTeX
+          severity: info
+          text: >-
+            pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 605
+              end: 606
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 607
+              end: 607
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: pdfTeX >= 1.30 not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 608
+              end: 608
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: \pdf@primitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 609
+              end: 609
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: \pdf@ifprimitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 610
+              end: 610
+        - severity: info
+          name: XeTeX
+          category: Package pdftexcmds
+          text: \pdfdraftmode not found.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 611
+              end: 611
+        - name: XeTeX
+          severity: info
+          text: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 612
+              end: 612
+        - name: XeTeX
+          severity: info
+          text: >-
+            bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 613
+              end: 614
+        - name: XeTeX
+          severity: info
+          text: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 615
+              end: 615
+        - name: XeTeX
+          severity: info
+          text: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+          log:
+            file: resume.log
+            range:
+              start: 616
+              end: 616
+        - severity: info
+          name: XeTeX
+          category: Package hobsub
+          text: Skipping package `hobsub' (already loaded).
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 618
+              end: 618
+        - name: XeTeX
+          severity: info
+          text: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 619
+              end: 619
+        - name: XeTeX
+          severity: info
+          text: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 620
+              end: 620
+        - name: XeTeX
+          severity: info
+          text: xcolor-patch 2016/05/16 xcolor patch
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 621
+              end: 621
+        - name: XeTeX
+          severity: info
+          text: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 622
+              end: 622
+        - name: XeTeX
+          severity: info
+          text: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 623
+              end: 623
+        - name: XeTeX
+          severity: info
+          text: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 624
+              end: 624
+        - name: XeTeX
+          severity: info
+          text: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 625
+              end: 625
+        - name: XeTeX
+          severity: info
+          text: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+          log:
+            file: resume.log
+            range:
+              start: 627
+              end: 627
+        - name: XeTeX
+          severity: info
+          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+          log:
+            file: resume.log
+            range:
+              start: 629
+              end: 629
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Hyper figures OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4509
+              end: 4509
+          log:
+            file: resume.log
+            range:
+              start: 641
+              end: 641
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link nesting OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4514
+              end: 4514
+          log:
+            file: resume.log
+            range:
+              start: 642
+              end: 642
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Hyper index ON
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4517
+              end: 4517
+          log:
+            file: resume.log
+            range:
+              start: 643
+              end: 643
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Plain pages OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4524
+              end: 4524
+          log:
+            file: resume.log
+            range:
+              start: 644
+              end: 644
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Backreferencing OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4529
+              end: 4529
+          log:
+            file: resume.log
+            range:
+              start: 645
+              end: 645
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Implicit mode ON; LaTeX internals redefined.
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+          log:
+            file: resume.log
+            range:
+              start: 646
+              end: 646
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Bookmarks ON
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 4762
+              end: 4762
+          log:
+            file: resume.log
+            range:
+              start: 647
+              end: 647
+        - name: XeTeX
+          severity: info
+          text: 'url 2013/09/16 ver 3.4 Verb mode for urls, etc.'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+          log:
+            file: resume.log
+            range:
+              start: 651
+              end: 651
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \url
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 5115
+              end: 5115
+          log:
+            file: resume.log
+            range:
+              start: 653
+              end: 653
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Hyper figures OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6369
+              end: 6369
+          log:
+            file: resume.log
+            range:
+              start: 658
+              end: 658
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link nesting OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6374
+              end: 6374
+          log:
+            file: resume.log
+            range:
+              start: 659
+              end: 659
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Hyper index ON
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6377
+              end: 6377
+          log:
+            file: resume.log
+            range:
+              start: 660
+              end: 660
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: backreferencing OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6384
+              end: 6384
+          log:
+            file: resume.log
+            range:
+              start: 661
+              end: 661
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link coloring OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6389
+              end: 6389
+          log:
+            file: resume.log
+            range:
+              start: 662
+              end: 662
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link coloring with OCG OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6394
+              end: 6394
+          log:
+            file: resume.log
+            range:
+              start: 663
+              end: 663
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: PDF/A mode OFF
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6399
+              end: 6399
+          log:
+            file: resume.log
+            range:
+              start: 664
+              end: 664
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \ref
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6439
+              end: 6439
+          log:
+            file: resume.log
+            range:
+              start: 665
+              end: 665
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \pageref
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+            range:
+              start: 6443
+              end: 6443
+          log:
+            file: resume.log
+            range:
+              start: 666
+              end: 666
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: 'Driver (autodetected): hxetex.'
+          source:
+            file: /Users/arthurvedana/Dropbox
+          log:
+            file: resume.log
+            range:
+              start: 671
+              end: 671
+        - name: XeTeX
+          severity: info
+          text: >-
+            stringenc 2016/05/16 v1.11 Convert strings between diff. encodings
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
+          log:
+            file: resume.log
+            range:
+              start: 677
+              end: 678
+        - name: XeTeX
+          severity: info
+          text: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+          log:
+            file: resume.log
+            range:
+              start: 686
+              end: 686
+        - severity: info
+          name: XeTeX
+          category: Package uniquecounter
+          text: New unique counter `rerunfilecheck'
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+            range:
+              start: 282
+              end: 282
+          log:
+            file: resume.log
+            range:
+              start: 687
+              end: 688
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Option `colorlinks' set `true'
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 214
+              end: 214
+          log:
+            file: resume.log
+            range:
+              start: 699
+              end: 699
+        - name: XeTeX
+          severity: info
+          text: import 2009/03/23 v 5.1
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/import/import.sty
+          log:
+            file: resume.log
+            range:
+              start: 701
+              end: 701
+        - name: XeTeX
+          severity: info
+          text: nth 2002/02/27
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/genmisc/nth.sty
+          log:
+            file: resume.log
+            range:
+              start: 703
+              end: 703
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 709
+              end: 709
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 710
+              end: 710
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 711
+              end: 711
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 712
+              end: 712
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 713
+              end: 713
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 714
+              end: 714
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 715
+              end: 715
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 716
+              end: 716
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for TU/lmr/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 717
+              end: 717
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 718
+              end: 718
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 719
+              end: 719
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 720
+              end: 720
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 721
+              end: 721
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 722
+              end: 722
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for TS1/cmr/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 723
+              end: 723
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 724
+              end: 724
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for PD1/pdf/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 725
+              end: 725
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 726
+              end: 726
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for PU/pdf/m/n
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 727
+              end: 727
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: ... okay
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 728
+              end: 728
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: >-
+            Redefining \selectfont driver: xetex paper: a4paper layout: <same
+            size as paper> layoutoffset:(h,v)=(0.0pt,0.0pt) modes:
+            h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+            v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
+            \paperwidth=597.50787pt \paperheight=845.04684pt
+            \textwidth=483.69687pt \textheight=745.46222pt
+            \oddsidemargin=-15.36449pt \evensidemargin=-15.36449pt
+            \topmargin=-66.59087pt \headheight=12.0pt \headsep=25.0pt
+            \topskip=11.0pt \footskip=14.22636pt \marginparwidth=50.0pt
+            \marginparsep=10.0pt \columnsep=10.0pt \skip\footins=10.0pt plus
+            4.0pt minus 2.0pt \hoffset=0.0pt \voffset=0.0pt \mag=1000
+            \@twocolumnfalse \@twosidefalse \@mparswitchfalse
+            \@reversemarginfalse (1in=72.27pt=25.4mm, 1cm=28.453pt)
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 730
+              end: 763
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathrm' in version `normal' OT1/cmr/m/n
+            --> TU/lmr/m/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 765
+              end: 766
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathit' in version `normal' OT1/cmr/m/it
+            --> TU/lmr/m/it.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 767
+              end: 768
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathbf' in version `normal' OT1/cmr/bx/n
+            --> TU/lmr/bx/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 769
+              end: 770
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathsf' in version `normal' OT1/cmss/m/n
+            --> TU/lmss/m/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 771
+              end: 772
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathsf' in version `bold' OT1/cmss/bx/n
+            --> TU/lmss/bx/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 773
+              end: 774
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathtt' in version `normal' OT1/cmtt/m/n
+            --> TU/lmtt/m/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 775
+              end: 776
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathtt' in version `bold' OT1/cmtt/m/n
+            --> TU/lmtt/bx/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 777
+              end: 778
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Encoding `OT1' has changed to `TU' for symbol font `operators' in
+            the math version `normal'.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 780
+              end: 781
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `operators' in version `normal' OT1/cmr/m/n
+            --> TU/latinmodern-math.otf(1)/m/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 782
+              end: 784
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Encoding `OT1' has changed to `TU' for symbol font `operators' in
+            the math version `bold'.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 785
+              end: 786
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `operators' in version `bold' OT1/cmr/bx/n
+            --> TU/latinmodern-math.otf(1)/bx/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 787
+              end: 789
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Encoding `OMS' has changed to `TU' for symbol font `symbols' in the
+            math version `normal'.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 790
+              end: 791
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `symbols' in version `normal' OMS/cmsy/m/n
+            --> TU/latinmodern-math.otf(2)/m/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 792
+              end: 794
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Encoding `OMS' has changed to `TU' for symbol font `symbols' in the
+            math version `bold'.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 795
+              end: 796
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `symbols' in version `bold' OMS/cmsy/b/n -->
+            TU/latinmodern-math.otf(2)/bx/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 797
+              end: 799
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Encoding `OMX' has changed to `TU' for symbol font `largesymbols' in
+            the math version `normal'.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 800
+              end: 802
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `largesymbols' in version `normal'
+            OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 803
+              end: 805
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Encoding `OMX' has changed to `TU' for symbol font `largesymbols' in
+            the math version `bold'.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 806
+              end: 807
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting symbol font `largesymbols' in version `bold'
+            OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/bx/n.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 809
+              end: 811
+        - severity: info
+          name: XeTeX
+          category: Package hyperref
+          text: Link coloring ON
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 813
+              end: 813
+        - name: XeTeX
+          severity: info
+          text: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+          log:
+            file: resume.log
+            range:
+              start: 815
+              end: 815
+        - name: XeTeX
+          severity: info
+          text: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+          log:
+            file: resume.log
+            range:
+              start: 817
+              end: 817
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \ref
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 821
+              end: 821
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \pageref
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 822
+              end: 822
+        - severity: info
+          name: XeTeX
+          category: LaTeX
+          text: Redefining \nameref
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 83
+              end: 83
+          log:
+            file: resume.log
+            range:
+              start: 823
+              end: 823
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(2)/m/n' will be scaled to size
+            10.95015pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 835
+              end: 836
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(2)/m/n' will be scaled to size
+            7.67863pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 837
+              end: 838
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(2)/m/n' will be scaled to size
+            5.45398pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 839
+              end: 840
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(3)/m/n' will be scaled to size
+            10.94983pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 841
+              end: 842
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(3)/m/n' will be scaled to size
+            7.6784pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 843
+              end: 844
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(3)/m/n' will be scaled to size
+            5.45381pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 845
+              end: 846
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not available Font
+            shape `TU/SourceSansPro(2)/m/it' tried instead.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 847
+              end: 850
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not available Font
+            shape `TU/SourceSansPro(2)/m/it' tried instead.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 851
+              end: 854
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(2)/m/n' will be scaled to size
+            9.00014pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 855
+              end: 856
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(2)/m/n' will be scaled to size
+            6.00009pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 857
+              end: 858
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(2)/m/n' will be scaled to size
+            5.00008pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 859
+              end: 860
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(3)/m/n' will be scaled to size
+            8.99986pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 861
+              end: 862
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(3)/m/n' will be scaled to size
+            5.99991pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 863
+              end: 864
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `TU/latinmodern-math.otf(3)/m/n' will be scaled to size
+            4.99992pt.
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 12
+              end: 12
+          log:
+            file: resume.log
+            range:
+              start: 865
+              end: 866
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Empty hook `BeforeClearDocument'
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 97
+              end: 97
+          log:
+            file: resume.log
+            range:
+              start: 890
+              end: 890
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Empty hook `AfterLastShipout'
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 97
+              end: 97
+          log:
+            file: resume.log
+            range:
+              start: 892
+              end: 892
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Empty hook `AtVeryEndDocument'
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 97
+              end: 97
+          log:
+            file: resume.log
+            range:
+              start: 896
+              end: 896
+        - severity: info
+          name: XeTeX
+          category: Package atveryend
+          text: Executing hook `AtEndAfterFileList'
+          source:
+            file: /Users/arthurvedana/Dropbox
+            range:
+              start: 97
+              end: 97
+          log:
+            file: resume.log
+            range:
+              start: 897
+              end: 897
+        - severity: info
+          name: XeTeX
+          category: Package rerunfilecheck
+          text: >-
+            File `resume.out' has not changed. Checksum:
+            D41D8CD98F00B204E9800998ECF8427E.
+          source:
+            file: /Users/arthurvedana/Dropbox
+          log:
+            file: resume.log
+            range:
+              start: 898
+              end: 899
+      inputs: []
+      outputs:
+        - resume.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  resume.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2018-03-24T12:18:29.492Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+        - providecommand
+        - providecommand
+        - HyperFirstAtBeginDocument
+        - global
+        - gdef
+        - global
+        - gdef
+        - gdef
+        - AtEndDocument
+        - let
+        - let
+        - fi
+        - fi
+        - global
+        - gdef
+        - providecommand
+        - HyPL@Entry
+    type: ParsedLaTeXAuxilary
+  awesome-cv.cls:
+    timeStamp: 2018-05-12T23:42:59.000Z
+    jobNames: []
+    hash: rsc4MaUQHjmm6OKMGyf/hdF/jRDg1H3P7bly0S41nD8=
+    type: LaTeXClass
+  fontawesome.sty:
+    timeStamp: 2018-03-24T02:52:59.000Z
+    jobNames: []
+    hash: zVcmZoNkhsXKOyGomsaYgSt2iVlf56UJKsDln9y8fTw=
+    type: LaTeXStyle
+  resume/education.tex:
+    timeStamp: 2018-08-06T20:39:18.621Z
+    jobNames: []
+    hash: K0iC0PVAqbpp+p2cIlZ5NRML2YwxPa66FeUYCkSqWL4=
+    type: TeX
+  resume/experience.tex:
+    timeStamp: 2018-05-14T11:16:00.000Z
+    jobNames: []
+    hash: sOOMyQzyOkhpFH6x7h9KuLjJZcN+nS5g1Wobsk96wJE=
+    type: TeX
+  resume/honors.tex:
+    timeStamp: 2018-04-28T18:53:24.000Z
+    jobNames: []
+    hash: XCoOtlw4POdd2tBVZUfwPWWYY5Gc4k0xAc+4jHsJ+kA=
+    type: TeX
+  resume/writing.tex:
+    timeStamp: 2018-05-13T14:31:05.000Z
+    jobNames: []
+    hash: SM3rXJkDbV59nQ3j6nY39ElLdvsKzg8unV0OVTFVd1c=
+    type: TeX
+  resume.pdf:
+    timeStamp: 2018-08-06T20:39:34.699Z
+    jobNames: []
+    hash: AktlxDd9yIBQ6IyWUcgqez+bh5Fh4jwz0oTAeKTksoQ=
+    type: PortableDocumentFormat
+  resume.aux:
+    timeStamp: 2018-08-06T20:39:33.262Z
+    jobNames: []
+    hash: SXHOuONWYS6pgZq0ZZeOyQuqPlvYMcnEW8rHfx6XsY8=
+    type: LaTeXAuxilary
+  resume.log:
+    timeStamp: 2018-08-06T20:39:34.902Z
+    jobNames: []
+    hash: rh6kkV3AQVwneyvEVv8CYB26cOoh1J87xJryZs8W6/Q=
+    type: LaTeXLog
+    subType: XeTeX
+  resume/interests.tex:
+    timeStamp: 2018-03-26T18:43:02.000Z
+    jobNames: []
+    hash: Uwfx1shObTuwttgYRZXNhPkZeHXqsdfrOS2IrZBs/kc=
+    type: TeX
+  resume/skills.tex:
+    timeStamp: 2018-05-13T14:32:12.000Z
+    jobNames: []
+    hash: JzRyKVsZzAViL0MpecwY/G5G4sMsjehr316/wWVlJZU=
+    type: TeX
+  resume.out:
+    timeStamp: 2018-08-06T20:39:32.938Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+    type: OUT
+  /Users/arthurvedana/.dicy.yaml:
+    timeStamp: 2018-08-06T19:31:26.519Z
+    jobNames: []
+    type: YAML
+  /Users/arthurvedana/.dicy.yaml-ParsedYAML:
+    timeStamp: 2018-08-06T19:31:30.018Z
+    jobNames: []
+    value:
+      engine: xelatex
+      synctex: true
+      severity: warning
+      copyTargetsToRoot: true
+      outputDirectory: ''
+      outputFormat: pdf
+      cleanPatterns: *ref_0
+      shellEscape: enabled
+      intermediatePostScript: false
+      $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+    type: ParsedYAML
+  resume.fls:
+    timeStamp: 2018-08-06T20:39:33.267Z
+    jobNames: []
+    hash: H6IG6R3xqDVEeb+KZv3AicK7KJslpxT4+yi8Nd72D14=
+    type: FileListing
+  resume.synctex.gz:
+    timeStamp: 2018-08-06T20:39:34.901Z
+    jobNames: []
+    hash: SnKlJywvX8wyp3bHKbVVkbuCELxl20fDlkMerGdrXGI=
+    type: SyncTeX
+  /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map:
+    timeStamp: 2017-11-27T23:19:31.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm:
+    timeStamp: 2016-11-25T18:31:29.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/generic/genmisc/nth.sty:
+    timeStamp: 2016-11-25T18:33:33.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty:
+    timeStamp: 2018-03-30T21:19:41.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty:
+    timeStamp: 2017-03-26T21:48:50.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/CaseFolding.txt:
+    timeStamp: 2017-06-27T21:55:49.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt:
+    timeStamp: 2017-06-27T21:55:49.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/UnicodeData.txt:
+    timeStamp: 2017-06-27T21:55:49.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXClass
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty:
+    timeStamp: 2016-11-25T18:33:47.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty:
+    timeStamp: 2018-02-11T22:50:58.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty:
+    timeStamp: 2017-06-30T22:24:08.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/filehook/filehook.sty:
+    timeStamp: 2016-11-25T18:33:48.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty:
+    timeStamp: 2017-11-09T23:44:31.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg:
+    timeStamp: 2017-11-05T22:03:43.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty:
+    timeStamp: 2017-11-09T23:44:31.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty:
+    timeStamp: 2018-03-25T21:23:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg:
+    timeStamp: 2016-11-25T18:33:50.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def:
+    timeStamp: 2017-06-25T21:51:33.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def:
+    timeStamp: 2018-02-07T22:17:34.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty:
+    timeStamp: 2018-02-07T22:17:34.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty:
+    timeStamp: 2016-11-25T18:33:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def:
+    timeStamp: 2018-02-07T22:17:34.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def:
+    timeStamp: 2018-02-07T22:17:34.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty:
+    timeStamp: 2016-11-25T18:33:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/import/import.sty:
+    timeStamp: 2016-11-25T18:33:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex:
+    timeStamp: 2018-03-07T21:50:56.000Z
+    jobNames: []
+    type: TeX
+  /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty:
+    timeStamp: 2018-03-07T21:50:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def:
+    timeStamp: 2018-03-07T21:50:56.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty:
+    timeStamp: 2018-02-22T22:17:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty:
+    timeStamp: 2018-02-22T22:17:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty:
+    timeStamp: 2016-11-25T18:33:55.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty:
+    timeStamp: 2016-11-25T18:33:55.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty:
+    timeStamp: 2016-11-25T18:33:58.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex:
+    timeStamp: 2018-01-07T23:46:58.000Z
+    jobNames: []
+    type: TeX
+  /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty:
+    timeStamp: 2018-02-01T23:06:27.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty:
+    timeStamp: 2018-02-01T23:06:27.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty:
+    timeStamp: 2016-11-25T18:34:02.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty:
+    timeStamp: 2016-11-25T18:34:03.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/xifthen/xifthen.sty:
+    timeStamp: 2016-11-25T18:34:03.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf:
+    timeStamp: 2018-03-26T12:22:29.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt:
+    timeStamp: 2018-07-04T17:33:18.487Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf.cnf:
+    timeStamp: 2018-04-17T03:08:03.000Z
+    jobNames: []
+rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - dicy.yaml-ParsedYAML
+      - resume.yaml-ParsedYAML
+      - resume.tex-ParsedLaTeXMagic
+      - dicy-instance.yaml-ParsedYAML
+      - /Users/arthurvedana/.dicy.yaml-ParsedYAML
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ApplyOptions
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - dicy.yaml-ParsedYAML
+      - resume.yaml-ParsedYAML
+      - resume.tex-ParsedLaTeXMagic
+      - dicy-instance.yaml-ParsedYAML
+      - /Users/arthur/.dicy.yaml-ParsedYAML
+      - /Users/arthurvedana/.dicy.yaml-ParsedYAML
+    outputs: []
+  - name: ParseOptionsFile
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - /Users/arthurvedana/.dicy.yaml
+    outputs:
+      - /Users/arthur/.dicy.yaml-ParsedYAML
+      - /Users/arthurvedana/.dicy.yaml-ParsedYAML
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - resume.tex
+    inputs:
+      - resume.tex
+    outputs:
+      - resume.tex-ParsedLaTeXMagic
+  - name: AssignJobNames
+    command: load
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: FindLogFiles
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: LaTeX
+    command: build
+    phase: execute
+    parameters:
+      - resume.tex
+    inputs:
+      - resume.tex
+      - resume.fls-ParsedFileListing
+      - resume.log-ParsedLaTeXLog
+      - awesome-cv.cls
+      - fontawesome.sty
+      - resume/education.tex
+      - resume/experience.tex
+      - resume/honors.tex
+      - resume/writing.tex
+      - resume.aux
+      - resume/interests.tex
+      - resume/skills.tex
+      - resume.out
+      - /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+      - /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+      - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+      - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+      - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+      - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
+      - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+      - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+      - /usr/local/texlive/2018/texmf-dist/tex/generic/genmisc/nth.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+      - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/filehook/filehook.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/import/import.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+      - >-
+        /usr/local/texlive/2018/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+      - /usr/local/texlive/2018/texmf-dist/tex/latex/xifthen/xifthen.sty
+      - /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+      - /usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
+      - /usr/local/texlive/2018/texmf.cnf
+    outputs:
+      - resume.pdf
+      - resume.aux
+      - resume.log
+      - resume.out
+      - resume.fls
+      - resume.synctex.gz
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs:
+      - resume.log-ParsedLaTeXLog
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs:
+      - resume.aux-ParsedLaTeXAuxilary
+  - name: ParseFileListing
+    command: build
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs:
+      - resume.fls-ParsedFileListing
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - resume.tex
+    inputs:
+      - resume.tex
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - resume.log-ParsedLaTeXLog
+    inputs:
+      - resume.log-ParsedLaTeXLog
+    outputs: []
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs:
+      - resume.log-ParsedLaTeXLog
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - resume.aux
+    inputs:
+      - resume.aux
+    outputs:
+      - resume.aux-ParsedLaTeXAuxilary
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - resume.log
+    inputs:
+      - resume.log
+    outputs:
+      - resume.log-ParsedLaTeXLog
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - resume.log
+    inputs:
+      - resume.log
+    outputs:
+      - resume.log-ParsedLaTeXLog
+  - name: ParseFileListing
+    command: build
+    phase: execute
+    parameters:
+      - resume.fls
+    inputs:
+      - resume.fls
+    outputs:
+      - resume.fls-ParsedFileListing
